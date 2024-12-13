@@ -1,9 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="uW_phi4VEYtL2WINQR16">
-    <mxGraphModel>
+    <mxGraphModel dx="1162" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-6" value="&lt;font face=&quot;Verdana&quot;&gt;tt&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pDTDzoaKquT_ZgxXrLPv-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pDTDzoaKquT_ZgxXrLPv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-3" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;Input password&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pDTDzoaKquT_ZgxXrLPv-7" target="pDTDzoaKquT_ZgxXrLPv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-7" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;&lt;br&gt;Initialize flags &lt;span class=&quot;hljs-keyword&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;for&lt;/font&gt;&lt;/span&gt; upper, lower, digit, special, &lt;span class=&quot;hljs-keyword&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;and&lt;/font&gt;&lt;/span&gt; validity&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pDTDzoaKquT_ZgxXrLPv-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-8" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;Loop through &lt;span class=&quot;hljs-keyword&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;each&lt;/font&gt;&lt;/span&gt; &lt;span class=&quot;hljs-type&quot;&gt;&lt;font color=&quot;#dc6bff&quot;&gt;character&lt;/font&gt;&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;of&lt;/span&gt; the password&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pDTDzoaKquT_ZgxXrLPv-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-14" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-keyword&quot;&gt;Check&lt;/span&gt; &lt;/font&gt;if &lt;font color=&quot;#dc6bff&quot;&gt;&lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-type&quot;&gt;character&lt;/span&gt; &lt;/font&gt;&lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-keyword&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;is&lt;/font&gt;&lt;/span&gt;:&lt;br&gt;    &lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Uppercase&lt;br&gt;    &lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Lowercase&lt;br&gt;    &lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Digit&lt;br&gt;    &lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; Special &lt;span style=&quot;line-height: 80%;&quot; class=&quot;hljs-type&quot;&gt;&lt;font color=&quot;#dc6bff&quot;&gt;character&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pDTDzoaKquT_ZgxXrLPv-16" value="&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;Check&lt;/span&gt; if &lt;span class=&quot;hljs-keyword&quot;&gt;last&lt;/span&gt; &lt;span class=&quot;hljs-type&quot;&gt;character&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;is&lt;/span&gt; odd digit (&lt;span class=&quot;hljs-number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;7&lt;/span&gt;, &lt;span class=&quot;hljs-keyword&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;9&lt;/span&gt;)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="200" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
