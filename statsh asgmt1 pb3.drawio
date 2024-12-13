@@ -1,9 +1,64 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0" version="25.0.3">
   <diagram name="Page-1" id="SJD96ZfH4cnl4_HfkQfR">
-    <mxGraphModel>
+    <mxGraphModel dx="1451" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ToyRfHVjBfhF12JV8jMG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-1" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 10px;&quot;&gt;START&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ToyRfHVjBfhF12JV8jMG-3" target="ToyRfHVjBfhF12JV8jMG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Initialize data &lt;span style=&quot;&quot; class=&quot;hljs-keyword&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;array&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ToyRfHVjBfhF12JV8jMG-6" target="ToyRfHVjBfhF12JV8jMG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-6" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;Calculate &lt;/font&gt;Mean&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ToyRfHVjBfhF12JV8jMG-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-9" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;Calculate &lt;/font&gt;Median&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="ToyRfHVjBfhF12JV8jMG-13" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;Calculate &lt;/font&gt;Kurtosis&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ToyRfHVjBfhF12JV8jMG-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;Calculate &lt;/font&gt;Standard Dev&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ToyRfHVjBfhF12JV8jMG-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-19" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 10px;&quot;&gt;Output Results&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ToyRfHVjBfhF12JV8jMG-21" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
